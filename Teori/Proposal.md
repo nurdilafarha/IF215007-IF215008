@@ -19,15 +19,29 @@
 
 ## Struktur Data
 
-### User
+### Guru
 Atribut|Tipe Data|Contoh
 ---|---|---
-ID|integer|01123
-NISN|integer|00324514716
 NIP|integer|19590416 198308 1 002
 Nama|varchar|Diana
 Kontak|varchar|08385541325
-Alamat|varchar|Jl. Buah Batu No. 113
-Tanggal|date|2022-07-23
+
+### Orang tua
+Atribut|Tipe Data|Contoh
+---|---|---
+ID|integer|01123
+Nama|varchar|Susi
+Kontak|varchar|08381234178
+
+### Siswa
+Atribut|Tipe Data|Contoh
+---|---|---
+NISN|integer|00324514716
+Nama|varchar|Febriani
+Tempat Tanggal Lahir|varchar|Bandung, 17 Maret 2013
+Jenis kelamin|string|Perempuan
+Kelas|varchar|2B
+No. Absen|integer|13
+
 
 ## UX Wireframe
