@@ -45,3 +45,4 @@ No. Absen|integer|13
 
 
 ## UX Wireframe
+![alt text](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/Teori/UX%20Wireframe/untitled.png)
