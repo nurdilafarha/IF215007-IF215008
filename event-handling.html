@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pendataaan Pasien</title>
+
+    <style>
+        .aplikasi-pendataan {
+            display: flex;
+            flex-direction: row;
+        }
+        .form-pendataan, .resume-data-pasien {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            margin: 5px;
+            flex-grow: 1;
+        }
+        .tabel-data-pasien {
+            border-collapse: collapse;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="aplikasi-pendataan">
+        <div class="form-pendataan">
+            <h1>Form Pendataan Pasien</h1>
+            <input id="input-nama" type="text" placeholder="Nama lengkap Pasien">
+            <input id="input-usia" type="text" placeholder="Usia">
+            <input id="input-alamat" type="text" placeholder="Alamat">
+            <input id="input-keluhan" type="text" placeholder="Keluhan">
+            <select id="input-dokter">
+                <option value="dr. Rini">dr. Rini</option>
+                <option value="dr. Anton">dr. Anton</option>
+            </select>
+
+            <button id="input-submit-button">Submit Data</button>
+        </div>
+
+        <div class="resume-data-pasien">
+            <h1>Tabel Data Pasien</h1>
+            <table class="tabel-data-pasien" border="1">
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nama Pasien</th>
+                        <th>Usia</th>
+                        <th>Alamat</th>
+                        <th>Keluhan</th>
+                        <th>Dokter yang menangani</th>
+                    </tr>
+                </thead>
+                <tbody id="tabel-data-pasien-tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        function tampilkanData(){
+            const dataTersimpan = localStorage.getItem("dataTErsimpan");
+            const dataTersimpanObjectArray = JSON.parse(dataTersimpan);
+            console.log("data:", dataTersimpanObjectArray);
+
+            const tabel = document.getElementById("tabel-tbody")
+
+            let isiTabel = ``;
+
+            dataTersimpanObjectArray.forEach(function(dataTersimpanObject,index) {
+                isiTabel += `
+                    <tr>
+                        <td>${index+1}</td>
+                        <td>${dataTersimpanObject.nama}</td>
+                        <td>${dataTersimpanObject.usia}</td>
+                        <td>${dataTersimpanObject.alamat}</td>
+                        <td>${dataTersimpanObject.keluhan}</td>
+                        <td>${dataTersimpanObject.dokter}</td>
+                    </tr>
+                `;
+            });
+
+            tabel.innerHTML = isiTabel
+        }
+
+        tampilkanData();
+
+        var inputNama = document.getElementByID("input-nama");
+        var inputUsia = document.getElementByID("input-usia");
+        var inputAlamat = document.getElementByID("input-alamat");
+        var inputKeluhan = document.getElementByID("input-keluhan");
+        var inputDokter = document.getElementByID("input-dokter");
+        var inputSubmitButton = document.getElementByID("input-submit-button");
+
+        inputSubmitButton.onclick = function(perwakilanEvent) {
+            const nama = inputNama.value;
+            const usia = inputUsia.value;
+            const alamat = inputAlamat.value;
+            const keluhan = inputKeluhan.value;
+            const dokter = inputDokter.value;
+            const pesan = `Data pasien dengan nama ${nama}, telah dikirim!`;
+            const data = {
+                nama,
+                usia,
+                alamat,
+                keluhan,
+                dokter,
+            };
+
+            alert(pesan);
+            console.log(data);
+
+            const dataTersimpan = localStorage.getItem("dataTersimpan");
+            const dataTersimpanObjectArray = JSON.parse(dataTersimpan)
+
+            if(dataTersimpan === null) {
+                localStorage.setItem("dataTersimpan", JSON.stringify({[data]}));
+            } else {
+                dataTersimpanObjectArray.push(data);
+                localStorage.setItem("dataTersimpan, JSON.stringify"(dataTersimpanObjectArray))
+            }
+
+            tampilkanData();
+
+            console.log("data tersimpan: ", dataTersimpan);
+                console.log("data tersimpan object array: ", dataTersimpanObjectArray);
+                tampilkanData();
+        }
+    </script>
+</body>
+</html>
