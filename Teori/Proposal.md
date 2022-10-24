@@ -1,4 +1,5 @@
-# Aplikasi Penghubung antara orang tua/wali murid dengan guru (SD)
+# BRIDGE
+## Aplikasi Penghubung antara orang tua/wali murid dengan guru (SD)
 
 ## Permasalahan
 - Sebagian orang tua kurang memperhatikan perkembangan anaknya di sekolah karena sibuk
@@ -45,4 +46,4 @@ No. Absen|integer|13
 
 
 ## UX Wireframe
-![alt text](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/Teori/UX%20Wireframe/Tak%20berjudul36_20220919075605.png)
+![alt text](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/Teori/UX%20Wireframe/ux_wireframe.jpg))
