@@ -1,17 +1,23 @@
 # CLO-0211
 ### Demo : Git installation
+![instalasi git](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/instalasi_git.png)
 
 ### Demo : Github project initialization
+![git init](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/inisialisasi_github_project.png)
 
 ### Demo : Hoppscotch / Postman access
+![postman access](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/postman-access.gif)
 
 ### Demo : PHP & Composer installation & hello world
 
 ### Demo : PostgreSQL / MySQL installation
+![instal postgreSQL](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/instal-postgre.png)
 
 ### Demo : DBeaver installation & DB connection
+![instal dbeaver](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/instal-dbeaver.png)
 
 ### Demo : MobaXterm installation & SSH connection
+![instal mobaXterm](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/instal-mobaXterm.png)
 
 ### Demo : NodeJS & NPM installation, operation & hello world
 
