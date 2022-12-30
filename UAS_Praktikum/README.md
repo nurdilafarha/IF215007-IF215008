@@ -57,7 +57,8 @@
 ### Demo : HTML Responsive Layout with Bootstrap
 
 ### Demo : Single Page App with React & React-router
-![singlepageapp](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/single-page-app.gif)
+![singlepageapp](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/single-page-app.gif) 
+![react router](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/react-router.png)
 
 ### Demo : Dynamic Web Page using Laravel
 
