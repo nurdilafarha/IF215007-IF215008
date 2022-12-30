@@ -20,6 +20,7 @@
 ![instal mobaXterm](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/instal-mobaXterm.png)
 
 ### Demo : NodeJS & NPM installation, operation & hello world
+![node js hello-world](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/hello-world.png)
 
 ### Demo : Linux server operation
 
@@ -28,6 +29,7 @@
 ### Demo : Cpanel operation
 
 ### Demo : Domain registration
+![domain-registration](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/domain-register.png)
 
 
 
