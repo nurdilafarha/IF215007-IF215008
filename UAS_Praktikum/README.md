@@ -65,4 +65,4 @@
 ### Demo : Web Service using Slim
 
 ### Demo : News Site using Wordpress
-![news site](https://github.com/nurdilafarha/IF215007-IF215008/tree/main/UAS_Praktikum)
+![news site](https://github.com/nurdilafarha/IF215007-IF215008/blob/main/UAS_Praktikum/Demo_image/wordpress-newssite.png)
