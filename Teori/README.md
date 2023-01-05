@@ -2,8 +2,8 @@
 
 ## Source Code
 
-#### Frontend : [bridgeAPP Frontend](https://github.com/nurdilafarha/bridgeApp_frontEnd)
-#### Backend : [bridgeApp Backend](https://github.com/nurdilafarha/bridgeApp_API)
+Frontend : [bridgeAPP Frontend](https://github.com/nurdilafarha/bridgeApp_frontEnd)
+Backend : [bridgeApp Backend](https://github.com/nurdilafarha/bridgeApp_API)
 
 ## Link demo aplikasi
-[Demo Aplikasi BridgeApp](https://youtu.be/gFnqDDnhXVw)
+[Demo Aplikasi BridgeApp - Youtube](https://youtu.be/gFnqDDnhXVw)
